@@ -38,8 +38,7 @@
   "contributors": [
     "Varun Sukheja <sukheja.varun@gmail.com> (https://github.com/sukheja-varun)"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "bugs": {
     "url": "https://github.com/sukheja-varun/Angular-openSource/issues"
   },

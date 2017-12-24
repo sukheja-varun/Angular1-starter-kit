@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     sassDir: 'src/scss',
-                    specify: 'src/scss/image_slider.scss',
+                    specify: 'src/scss/angularOpenSource.scss',
                     cssDir: 'src/css',
                     assetCacheBuster: false
                 }
@@ -34,7 +34,7 @@ module.exports = function (grunt) {
                 },
                 cwd: 'src',
                 src: 'view/*.html',
-                dest: 'src/js/angular_opensource.templates.js'
+                dest: 'src/js/angularOpenSource.templates.js'
 
             }
         },
@@ -45,7 +45,12 @@ module.exports = function (grunt) {
                 '<%= grunt.template.today("yyyy-mm-dd") %> */'
             },
             dist: {
-                src: ['src/js/angular_opensource.js','src/js/angular_opensource.templates.js', 'src/js/angular_opensource.directive.js', 'src/js/service/*.js',  'src/js/controller/*.js'],
+                src: [
+                    'src/js/angularOpenSource.js',
+                    'src/js/angularOpenSource.templates.js',
+                    'src/js/angularOpenSource.directive.js',
+                    'src/js/angularOpenSource.controller.js'
+                ],
                 dest: 'dist/js/<%= pkg.name %>.js'
             }
         },

@@ -102,7 +102,7 @@ module.exports = function (grunt) {
             },
             readme: {
                 files: ['readme/**/*.md'],
-                tasks: ['readme_generator:template_generator', 'readme_generator:my_generator'],
+                tasks: ['readme_generator:my_generator'],
             }
         },
 
@@ -119,7 +119,7 @@ module.exports = function (grunt) {
                     changelog_version_prefix: null,
                     changelog_insert_before: null,
                     banner: null,
-                    has_travis: true,
+                    has_travis: false,
                     github_username: "sukheja-varun",
                     travis_branch: "develop",
                     generate_footer: false,
@@ -137,8 +137,6 @@ module.exports = function (grunt) {
                     // "Filename" : "Title"
                     "installation.md": "Installation",
                     "usage.md": "Usage",
-                    "template.md": "Templates",
-                    "example.md": "Examples",
                     "legal.md": "License"
                 }
             }

@@ -1,0 +1,43 @@
+{
+  "name": "angular-opensource",
+  "description": "This is a ready to go angular openSource repo with all the necessary configs done for you.",
+  "main": [
+    "dist/js/Angular-opnSource.js",
+    "dist/css/Angular-openSource.css"
+  ],
+  "dependencies": {
+    "angular": "1.6.7"
+  },
+  "keywords": [
+    "open-source",
+    "opensource",
+    "open_source",
+    "open",
+    "source",
+    "angularjs",
+    "html",
+    "javascript",
+    "css"
+  ],
+  "authors": [
+    "Varun Sukheja <sukheja.varun@gmail.com> (https://www.logic24by7.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sukheja-varun/Angular-openSource"
+  },
+  "homepage": "https://github.com/sukheja-varun/Angular-openSource#readme",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "demo",
+    ".sass-cache",
+    ".idea",
+    "src",
+    "conf",
+    "npm-shrinkwrap.json",
+    "Gruntfile.js"
+  ]
+}

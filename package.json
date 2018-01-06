@@ -1,25 +1,33 @@
 {
-  "name": "Angular-openSource",
-  "namelower": "angular-opensource",
+  "name": "Angular1-start-kit",
+  "namelower": "angular1-start-kit",
   "version": "0.0.1",
   "description": "This is a ready to go angular openSource repo with all the necessary configs done for you.",
   "readme": "README.md",
   "main": "dist/js/Angular-opnSource.js",
   "style": "dist/css/Angular-openSource.css",
   "devDependencies": {
-    "grunt": "~0.4.0",
+    "grunt": "^1.0.1",
     "grunt-angular-templates": "^1.1.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-compass": "^1.1.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^2.2.1",
-    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-readme-generator": "^0.3.41",
     "gruntify-eslint": "^4.0.0"
   },
   "keywords": [
+    "start-kit",
+    "angular-start",
+    "angular1-start",
+    "angularjs1-start",
+    "angularjs1-start-kit",
+    "angularjs-start-kit",
+    "angular1-start-kit",
+    "angular-start-kit",
     "open-source",
     "opensource",
     "open_source",
@@ -38,7 +46,9 @@
   "contributors": [
     "Varun Sukheja <sukheja.varun@gmail.com> (https://github.com/sukheja-varun)"
   ],
-  "scripts": {},
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "bugs": {
     "url": "https://github.com/sukheja-varun/Angular-openSource/issues"
   },

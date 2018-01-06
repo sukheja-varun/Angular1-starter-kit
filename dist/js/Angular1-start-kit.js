@@ -1,4 +1,4 @@
-/* Angular-openSource - v0.0.1 - 2017-12-24 */(function () {
+/* Angular1-start-kit - v0.0.1 - 2018-01-07 */(function () {
     'use strict';
     angular.module('angularOpenSource', ['templateCacher'])
 })();

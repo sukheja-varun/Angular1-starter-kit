@@ -26,6 +26,7 @@
 * [Setup](#setup)
 * [Run Application](#run-application)
 * [Code](#code)
+* [Changelog](#changelog)
 * [License](#license)
 
 ## Features
@@ -36,7 +37,7 @@
 * ESLINT setup, auto-corrects your silly mistakes of comma, quotes, semi-colon,etc.
 * Minification of css and js files.
 * Readme-generator makes it easy to write nice modular readme.
-* Templates setup, coverts your HTML templates to js, which helps in reducing HTML request made on server. 
+* Templates caching setup, coverts your HTML templates to js and caches it, which helps in reducing HTML request made on server. 
   
 
 
@@ -148,6 +149,18 @@ You can edit the md files in readme folder but if you add or delete a md file fr
 ```
 
 You can find this code snippet in the ```readme_generator``` plugin mentioned in Gruntfile.js
+
+## Changelog
+[[Back To Top]](#jump-to-section)
+
+### v0.1.0
+#### Features
+* Grunt for task management
+* SASS enabled to css writing easy.
+* ESLINT setup, auto-corrects your silly mistakes of comma, quotes, semi-colon,etc.
+* Minification of css and js files.
+* Readme-generator makes it easy to write nice modular readme.
+* Templates caching setup, coverts your HTML templates to js and caches it, which helps in reducing HTML request made on server. 
 
 ## License
 [[Back To Top]](#jump-to-section)

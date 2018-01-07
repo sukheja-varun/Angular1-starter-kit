@@ -109,7 +109,7 @@ module.exports = function (grunt) {
                 tasks: ['clean:scss', 'clean:lib', 'compass', 'copy:css', 'cssmin', 'copy:lib'],
             },
             readme: {
-                files: ['readme/**/*.md'],
+                files: ['readme/**/*.md','CHANGELOG.md'],
                 tasks: ['readme_generator:my_generator'],
             }
         },
@@ -149,6 +149,7 @@ module.exports = function (grunt) {
                     "setup.md": "Setup",
                     "run.md": "Run Application",
                     "code.md": "Code",
+                    "../CHANGELOG.md": "Changelog",
                     "legal.md": "License",
                 }
             }

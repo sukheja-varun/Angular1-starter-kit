@@ -1,6 +1,11 @@
 module.exports = function (grunt) {
+
+    // ===========================================================================
+    // CONFIGURE GRUNT ===========================================================
+    // ===========================================================================
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        // configure clean to delete files and folders -----------------------------------
         clean: {
             options: {force: true},
             lib: ['demo/client/lib'],
@@ -8,6 +13,7 @@ module.exports = function (grunt) {
             scripts: ['dist/js'],
             scss: ['src/css/*', 'dist/css']
         },
+        // configure eslint to validate js files -----------------------------------
         eslint: {
             options: {
                 configFile: ".eslintrc.json",
@@ -15,6 +21,7 @@ module.exports = function (grunt) {
             },
             src: ['src/js/**/*.js']
         },
+        // configure compass to compiles scss files to css files -----------------------------------
         compass: {
             dist: {
                 options: {
@@ -26,6 +33,7 @@ module.exports = function (grunt) {
 
             }
         },
+        // configure ngtemplates to cache html templates  ------------------------------------
         ngtemplates: {
             image_slider: {
                 options: {
@@ -38,6 +46,7 @@ module.exports = function (grunt) {
 
             }
         },
+        // configure concat to concat various files together ------------------------------------
         concat: {
             options: {
                 force: true,
@@ -54,6 +63,7 @@ module.exports = function (grunt) {
                 dest: 'dist/js/<%= pkg.name %>.js'
             }
         },
+        // configure uglify to minify js files ------------------------------------
         uglify: {
             options: {
                 sourceMap: true,
@@ -78,15 +88,13 @@ module.exports = function (grunt) {
                 dest: 'demo/lib/',
             },
         },
-
-
+        // configure cssmin to minify css files ------------------------------------
         cssmin: {
             cssminify: {
                 src: 'dist/css/<%= pkg.name %>.css',
                 dest: 'dist/css/<%= pkg.name %>.min.css'
             }
         },
-
         watch: {
             grunt: {
                 files: ['Gruntfile.js'],
@@ -135,9 +143,13 @@ module.exports = function (grunt) {
                 order: {
                     // Title of the piece and the File name goes here
                     // "Filename" : "Title"
+                    "features.md": "Features",
+                    "prerequisites.md": "Prerequisites",
                     "installation.md": "Installation",
-                    "usage.md": "Usage",
-                    "legal.md": "License"
+                    "setup.md": "Setup",
+                    "run.md": "Run Application",
+                    "code.md": "Code",
+                    "legal.md": "License",
                 }
             }
         }
@@ -145,6 +157,9 @@ module.exports = function (grunt) {
 
     });
 
+    // ===========================================================================
+    // LOAD GRUNT PLUGINS ========================================================
+    // ===========================================================================
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('gruntify-eslint');
     grunt.loadNpmTasks('grunt-contrib-compass');
@@ -156,7 +171,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-readme-generator');
 
-
+    // ===========================================================================
+    // CREATE TASKS ==============================================================
+    // ===========================================================================
     grunt.registerTask('default', [
         'clean',
         'eslint',
@@ -167,6 +184,7 @@ module.exports = function (grunt) {
         'copy:css',
         'cssmin',
         'copy:lib',
+        'readme_generator',
         'watch'
     ]);
 };

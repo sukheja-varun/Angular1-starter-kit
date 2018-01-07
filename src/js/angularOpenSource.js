@@ -1,4 +1,4 @@
 (function () {
     'use strict';
-    angular.module('angularOpenSource', ['templateCacher'])
+    angular.module('angularOpenSource', ['templateCacher']);
 })();

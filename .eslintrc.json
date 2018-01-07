@@ -1,7 +1,13 @@
 {
+  "plugins": [
+    "angular"
+  ],
   "rules": {
-    "eqeqeq": "off",
+    "eqeqeq": "warn",
     "curly": "warn",
-    "quotes": ["warn", "single"]
+    "quotes": [
+      "warn",
+      "single"
+    ]
   }
 }

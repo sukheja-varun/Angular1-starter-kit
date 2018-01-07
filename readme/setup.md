@@ -21,6 +21,7 @@ None
   *  grunt-contrib-watch v1.0.0 - A grunt plugin to run predefined tasks whenever watched file patterns are added, changed or deleted. [Read More](https://www.npmjs.com/package/grunt-contrib-watch)
   *  grunt-readme-generator v0.3.41 - A grunt plugin to generate a dynamic readme.md from partial markdown files in readme folder. [Read More](https://www.npmjs.com/package/grunt-readme-generator)
   *  gruntify-eslint v4.0.0 - A grunt plugin to validate and auto-correct files using Eslint . [Read More](https://www.npmjs.com/package/gruntify-eslint)
+  *  eslint-plugin-angular v3.1.1 - An Eslint plugin to add ESLint rules for your angular project . [Read More](https://www.npmjs.com/package/eslint-plugin-angular)
 
 ##### Bower Dependencies
 Angular JS v1.6.7

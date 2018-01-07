@@ -2,6 +2,22 @@
 
 > This is a ready to go angular openSource repo with all the necessary configs done for you.
 
+
+![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)
+[![GitHub version](https://badge.fury.io/gh/sukheja-varun%2FAngular1-starter-kit.svg)](https://badge.fury.io/for/gh/sukheja-varun/Angular1-starter-kit)
+[![HitCount](http://hits.dwyl.io/sukheja-varun/Angular1-starter-kit.svg)](http://hits.dwyl.io/sukheja-varun/Angular1-starter-kit)
+[![NSP Status](https://nodesecurity.io/orgs/sukheja-varun/projects/c45455c1-e7f3-485a-baef-5aa39bf6067e/badge)](https://nodesecurity.io/orgs/sukheja-varun/projects/c45455c1-e7f3-485a-baef-5aa39bf6067e)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![MIT License](https://img.shields.io/github/license/sukheja-varun/Angular1-starter-kit.svg)](https://github.com/sukheja-varun/Angular1-starter-kit/blob/master/LICENSE)
+
+[![bitHound Code](https://www.bithound.io/github/sukheja-varun/Angular1-starter-kit/badges/code.svg)](https://www.bithound.io/github/sukheja-varun/Angular1-starter-kit)
+[![bitHound Overall Score](https://www.bithound.io/github/sukheja-varun/Angular1-starter-kit/badges/score.svg)](https://www.bithound.io/github/sukheja-varun/Angular1-starter-kit)
+[![bitHound Dependencies](https://www.bithound.io/github/sukheja-varun/Angular1-starter-kit/badges/dependencies.svg)](https://www.bithound.io/github/sukheja-varun/Angular1-starter-kit/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/sukheja-varun/Angular1-starter-kit/badges/devDependencies.svg)](https://www.bithound.io/github/sukheja-varun/Angular1-starter-kit/master/dependencies/npm)
+
+
+
+
 ## Jump to Section
 
 * [Features](#features)

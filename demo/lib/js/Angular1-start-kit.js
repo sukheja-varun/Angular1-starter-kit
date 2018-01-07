@@ -1,6 +1,6 @@
 /* Angular1-start-kit - v0.0.1 - 2018-01-07 */(function () {
     'use strict';
-    angular.module('angularOpenSource', ['templateCacher'])
+    angular.module('angularOpenSource', ['templateCacher']);
 })();
 
 angular.module('templateCacher', []).run(['$templateCache', function($templateCache) {

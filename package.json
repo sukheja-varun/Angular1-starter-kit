@@ -16,7 +16,7 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-uglify": "^3.3.0",
-    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-watch": "1.0.0",
     "grunt-readme-generator": "^0.3.41",
     "gruntify-eslint": "^4.0.0"
   },

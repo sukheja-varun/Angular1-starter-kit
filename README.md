@@ -1,6 +1,6 @@
 # Angular1-start-kit 
 
-> This is a ready to go angular openSource repo with all the necessary configs done for you.
+> This is a ready to go angular open-source repo with all the necessary configs done for you.
 
 
 ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)
@@ -33,12 +33,12 @@
 [[Back To Top]](#jump-to-section)
 
 * Grunt for task management
-* SASS enabled to css writing easy.
+* SASS enabled to make css writing easy.
 * ESLINT setup, auto-corrects your silly mistakes of comma, quotes, semi-colon,etc.
 * Minification of css and js files.
 * Readme-generator makes it easy to write nice modular readme.
-* Templates caching setup, coverts your HTML templates to js and caches it, which helps in reducing HTML request made on server. 
-  
+* Templates caching setup, converts your HTML templates to js and caches it, which helps in reducing HTML requests made to server.
+
 
 
 ## Prerequisites
@@ -48,21 +48,21 @@ Make sure you have NodeJs installed in your system.
 
 You can download installer directly from official [NodeJs site](https://nodejs.org/en/#download). If you do not wish to use installer for downloading then [click here](https://nodejs.org/en/download/package-manager/) to view other options
 
-Still finding it difficult to install node, check this [blog](http://blog.teamtreehouse.com/install-node-js-npm-windows), to find step wise installation.
+Still finding it difficult to install node? Check this [blog](http://blog.teamtreehouse.com/install-node-js-npm-windows), to find step wise installation.
 
 ## Installation
 [[Back To Top]](#jump-to-section)
 
-You can either download the project from [GIT releases](https://github.com/sukheja-varun/Angular1-starter-kit/releases) or just git clone it using below mentioned commands. 
+You can either download the project from [releases](https://github.com/sukheja-varun/Angular1-starter-kit/releases) or just `git clone` it using the commands mentioned below.
 
 ### Clone with SSH
-Clone this repo to use using SSH
+Clone this repo for use, via SSH
 ```git
 git clone git@github.com:sukheja-varun/Angular-openSource.git
 ```
 OR
 ### Clone with HTTPS
-Clone this repo to use using HTTPS
+Clone this repo for use, via HTTPS
 
 ```git
 git clone https://github.com/sukheja-varun/Angular-openSource.git
@@ -72,13 +72,13 @@ git clone https://github.com/sukheja-varun/Angular-openSource.git
 ## Setup
 [[Back To Top]](#jump-to-section)
 
-Now when you have this project in your local machine. Now lets setup it to make it run.
+Now that you have this project on your local machine, let's set it up to run.
 
 ### Install Dependencies
 ```npm
 npm install
 ```
-It installs all the mentioned **dependencies** and **dev-dependencies** mentioned in **package.json** and after completion run ```bower install``` to install dependencies and dev-dependencies mentioned in **bower.json**
+It installs all the **dependencies** and **dev-dependencies** mentioned in **package.json** and after completion run ```bower install``` to install dependencies and dev-dependencies mentioned in **bower.json**
 
 ##### NPM Dependencies
 None
@@ -112,7 +112,7 @@ None
 [[Back To Top]](#jump-to-section)
 
 Just run grunt command to create a build for you. Once it runs you can see files genrated in the **dist** folder.
-This command also copies the generated files in the **lib** folder under **demo** folder, making easy for you to run demo.
+This command also copies the generated files in the **lib** folder under **demo** folder, making it easy for you to run a demo.
 
 ```
 grunt
